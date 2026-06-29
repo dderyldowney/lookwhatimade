@@ -1,4 +1,4 @@
-fetch("/submissions.json")
+fetch("https://zero-to-mastery.github.io/lookwhatimade/submissions.json")
   .then((response) => {
     if (!response.ok) {
       throw new Error(`HTTP error: ${response.status}`);
